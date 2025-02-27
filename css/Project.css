@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sen", sans-serif;
+}
+
+.Home-Page {
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(15, 10, 5, 0) 0%, rgba(15, 10, 5, .793519)), url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+}
+
+.Nav-Bar {
+    padding-top: 25px;
+    padding-inline: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Nav-Bar-Title {
+    width: 14%;
+
+}
+
+.Nav-Bar-Title img {
+    width: 100%;
+    margin-left: 40px;
+}
+
+.Nav-Bar-Links li {
+    display: inline-block;
+    padding-inline: 15px;
+    padding-top: 15px;
+
+}
+
+.Nav-Bar-Links ul {
+    list-style: none;
+}
+
+.Nav-Bar-Links a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.Nav-Bar-Links a:hover {
+    color: wheat;
+}
+
+.Home-Page-Container {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+.Home-Page-Container h1 {
+    padding-block: 20px;
+    font-size: 58px;
+}
+
+.Paragraph {
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.btn1 {
+    padding: 15px 28px;
+    background-color: #8e7754;
+    border: 2px solid transparent;
+    color: white;
+    font-family: "Sen", sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn2 {
+    padding: 15px 28px;
+    color: #fff;
+    border-color: #Cfff;
+    background: none;
+    font-family: "Sen", sans-serif;
+    font-size: 16px;
+}
+
+.btn2:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.Who_We-Are {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.Who_We-Are-Content {
+    margin-left: 50px;
+    margin-top: 45px;
+}
+.Who_We-Are-Content h2{
+    font-size: 35px;
+}
+.Who_We-Are-Content p {
+    color: #686868;
+    padding-bottom: 25px;
+}
+
+.Photo {
+    width: 35%;
+}
+
+.Photo img {
+    width: 100%;
+}
+
+.Who_We-Are-Links {
+    padding-left: 40px;
+}
+
+.Who_We-Are-Links i {
+    padding-right: 9px;
+    font-size: 20px;
+}
+
+.Who_We-Are-Links ul {
+    list-style: none;
+}
+
+.Who_We-Are-Links a {
+    text-decoration: none;
+    color: #686868;
+}
+
+.Special-List li {
+    padding-block: 15px;
+}
+
+.Location {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: #f8f8f8;
+}
+
+.Our-Location {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.Our-Location h2 {
+    padding-bottom: 35px;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.Our-Location p {
+    color: #686868;
+}
+
+.Photo2 {
+    width: 35%;
+    padding-left: 35px;
+}
+
+.Photo2 img {
+    width: 100%;
+}
+.Baking h2{
+    text-align: center;
+    font-size: 35px;
+}
+.Baking p{
+    text-align: center;
+}
+.Photos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.Photo3{
+    width: 30%;
+}
+.Photo3 img{
+    width: 100%;
+}
+.Photo3 h2{
+    text-align: center;
+}
+.Information{
+    display: flex;
+    gap: 5%;
+    margin-inline: 25px;
+    background-color: #f8f8f8;
+    justify-content: center;
+}
+.contact-Information{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 35px;
+}
+.Who_We-Are-Links2 i {
+    padding-right: 9px;
+    font-size: 20px;
+}
+
+.Who_We-Are-Links2 ul {
+    list-style: none;
+}
+
+.Who_We-Are-Links2 a {
+    text-decoration: none;
+    color: #686868;
+    font-size: 16px;
+}
+.Footer{
+    display: flex;
+    justify-content: center;
+    background-color: #403d38;
+    padding-top: 45px;
+    justify-content: space-between;
+    padding-inline: 15px;
+    padding-left: 55px;
+    gap: 5%;
+    width: 100%;
+}
+.About-Us h2{
+    color: #fff;
+}
+.About-Us p{
+    color: #686868;
+}
+.Who_We-Are-Links3 i {
+    padding-right: 9px;
+    font-size: 20px;
+}
+
+.Who_We-Are-Links3 ul {
+    list-style: none;
+}
+.Special h2{
+    color: #fff;
+}
+.Who_We-Are-Links3 a {
+    text-decoration: none;
+    color: #686868;
+    font-size: 13px;
+}
+.Final{
+    background-color: #353330;
+    text-align: center;
+    padding-block: 30px;
+}
+.Final p{
+    color: #686868;
+    padding-bottom: 45px;
+    padding-top: 45px;
+
+}
+.Footer-Links{
+    text-align: center;
+}
+.Footer-Links i{
+    padding-inline: 15px;
+}
+.Footer-Links a{
+    color: gray;
+    border-radius: 25px;
+}
+.Facebook:hover{
+    color: blue;
+}
+.Gmail:hover{
+    color: red;
+}
+.Linkedin:hover{
+    color: blue;
+}
+.X-Twitter:hover{
+    color: #4379F2;
+}
